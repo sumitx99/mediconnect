@@ -1,0 +1,54 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #0e6ba8;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+.hero {
+  padding: 50px;
+  text-align: center;
+  background-color: #e0f7fa;
+}
+/* style.css */
+
+input::placeholder {
+  font-style: italic;
+}
+
+input.rounded-textbox {
+  width: 400px;           /* Controls the visual width */
+  height: 40px;           /* Optional: height of the box */
+  padding: 10px;          /* Adds inner spacing */
+  font-size: 16px;        /* Font size inside input */
+  border-radius: 8px;     /* Rounded corners */
+  border: 1px solid #ccc; /* Light gray border */
+  box-sizing: border-box; /* Prevents padding from affecting total width */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+footer {
+  background-color: #0e6ba8;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}

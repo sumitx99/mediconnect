@@ -1,0 +1,50 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MedConnect</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>MediConnect</h1>
+   
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Doctors</a></li>
+        <li><a href="#">Appointments</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+     <img src = "/images/medi.jpg" height="400">
+      <h2>Book Your Appointment with a Specialist</h2>
+      <label></label>
+      <div id="formContainer">
+  <input type="text" id="nameInput" class="rounded-textbox" placeholder="NAME" required><br><br>
+  <input type="text" id="addressInput" class="rounded-textbox" placeholder="ADDRESS" required><br><br>
+  <input type="date" id="birthdateInput" class="rounded-textbox" placeholder="Birthdate"><br><br>
+  <button onclick="bookNow()">Book Now</button>
+</div>
+
+<!-- This will be shown after form is submitted -->
+<div id="thankYouMessage" style="display: none;">
+  <h2>Thanks for registration!❤️</h2>
+
+</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MediConnect by sumit</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
